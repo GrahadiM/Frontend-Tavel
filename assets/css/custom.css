@@ -1,0 +1,32 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1abc9c76;
+    box-shadow: inset 0 0 6px rgba(128, 128, 128, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#00ffcc;
+    border-radius: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.8);
+}
+
+/* Scrollbar for Firefox */
+body {
+    scrollbar-color: rgba(128, 128, 128, 0.8) #1abc9c;
+    scrollbar-width: thin;
+}
+
+/* 3D Effect */
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+/* Text Shadow */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Atur nilai sesuai kebutuhan Anda */
+}
